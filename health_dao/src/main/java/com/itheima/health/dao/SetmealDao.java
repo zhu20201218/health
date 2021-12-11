@@ -70,4 +70,10 @@ public interface SetmealDao {
      * @return
      */
     int findOrderSetmeal(int id);
+
+    /**
+     * 查询套餐中的图片
+     * @return
+     */
+    List<String> findImg();
 }

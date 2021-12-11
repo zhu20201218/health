@@ -123,4 +123,13 @@ public class SetmealServiceImpl implements SetmealService {
         //通过id删除套餐
         setmealDao.deleteById(id);
     }
+
+    /**
+     * 查询套餐中的图片
+     * @return
+     */
+    @Override
+    public List<String> findImg() {
+        return setmealDao.findImg();
+    }
 }

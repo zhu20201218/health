@@ -44,7 +44,7 @@ public class QiNiuUtils {
             for (FileInfo item : items) {
                 // item.key 文件名
                 imageFiles.add(item.key);
-                System.out.println(item.key);
+                //System.out.println(item.key);
             }
         }
         return imageFiles;
